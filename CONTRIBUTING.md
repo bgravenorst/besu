@@ -59,12 +59,11 @@ To contribute changes, use the following workflow:
 5. **Commit your changes**. See the [How to Write a Git Commit Message](https://cbea.ms/git-commit/) article by Chris Beams. Make sure to add a DCO sign-off to each commit (for example, `git commit -s -m "..."`); see [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco) below.
 6. **Test your changes** locally before pushing to ensure you are not breaking another part of the software. Running `./gradlew clean check test` locally helps you be confident that your changes will pass CI once pushed as a PR.
 7. **Push your changes** to your remote fork (usually labeled `origin`).
-8. **Create a pull request** on the Besu repository. If it's not ready for review, make it a `Draft` PR. If the PR addresses an existing issue, include the issue number in the PR title in square brackets (for example, `[#2374]`).
+8. **Create a pull request** on the Besu repository. If it's not ready for review, make it a `Draft` PR. If the PR addresses an existing issue, link it in the PR description using GitHub keywords such as `fixes #1234` or `refs #1234`.
 9. **Add labels** to identify the type of your PR, if you have permission. For example, if your PR fixes a bug, add the "bug" label. If you don't have permission, maintainers will label the PR during triage.
-10. If the PR addresses an existing issue, comment on the issue with the PR number.
-11. **Ensure your changes are reviewed**. Let us know on Discord that your PR is ready for review. If you are a maintainer, you can choose reviewers; otherwise this is done by one of the maintainers.
-12. **Make any required changes** based on reviewer feedback. Make the changes, commit to your branch, and push to your remote fork.
-13. **When your PR is approved and validated**, all tests pass, and your branch has no conflicts, it can be merged. This is done by a maintainer, usually the same person who approves also merges it.
+10. **Ensure your changes are reviewed**. Let us know on Discord that your PR is ready for review. If you are a maintainer, you can choose reviewers; otherwise this is done by one of the maintainers.
+11. **Make any required changes** based on reviewer feedback. Make the changes, commit to your branch, and push to your remote fork.
+12. **When your PR is approved and validated**, all tests pass, and your branch has no conflicts, it can be merged. This is done by a maintainer, usually the same person who approves also merges it.
 
 You contributed to Besu! Thanks!
 
