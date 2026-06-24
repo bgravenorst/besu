@@ -132,7 +132,7 @@ Please follow these steps to have your contribution considered by the approvers:
 1. Ensure all commits have a sign-off for the DCO, as described in [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco).
 2. Follow all instructions in the [pull request template](https://github.com/besu-eth/besu/blob/main/.github/pull_request_template.md).
 3. Include appropriate test coverage. Testing is 100% automated; all submissions must be testable in an automated fashion.
-4. Follow the coding conventions and [style guides](https://github.com/besu-eth/besu/wiki).
+4. Follow the coding conventions in the [Developing and Conventions](https://github.com/besu-eth/besu/wiki/Developing-and-Conventions) wiki page.
 5. After you submit your pull request, verify that all [status checks](https://docs.github.com/articles/about-status-checks) are passing.
 
 ### What makes a good pull request?
@@ -152,7 +152,7 @@ Please follow these steps to have your contribution considered by the approvers:
 
 #### Write meaningful commit messages
 
-- Your commit title should include the issue number, and the description should link to the issue and comprehensively describe the changes.
+- Your commit messages should be meaningful, and the PR description should link to the related issue and comprehensively describe the changes.
 
 #### Be responsive
 
@@ -164,11 +164,11 @@ Please follow these steps to have your contribution considered by the approvers:
 
 ## Code reviews
 
-All changes must be code reviewed. For non-approvers this is obvious, since you can't commit anyway. But even for approvers, we want all changes to get at least one review, preferably (and, for non-trivial changes, obligatorily) from someone who knows the areas the change touches. For non-trivial changes we may want two reviewers. The primary reviewer makes this decision and nominates a second reviewer if needed. Except for trivial changes, PRs should not be committed until relevant parties (for example, owners of the affected subsystem) have had a reasonable chance to look at the PR in their local business hours.
+All changes must be code reviewed, preferably (and, for non-trivial changes, obligatorily) from someone who knows the areas the change touches. For non-trivial changes we may want two reviewers. The primary reviewer makes this decision and nominates a second reviewer if needed. Except for trivial changes, PRs should not be merged until relevant parties (for example, owners of the affected subsystem) have had a reasonable chance to look at the PR in their local business hours.
 
-Most PRs will find reviewers organically. If an approver intends to be the primary reviewer of a PR, they should set themselves as the assignee on GitHub and say so in a reply to the PR. Only the primary approver of a change should do the merge, except in rare cases (for example, they are unavailable in a reasonable timeframe).
+Most PRs will find reviewers organically. If an approver intends to be the primary reviewer of a PR, they should set themselves as the assignee on GitHub. Only the primary approver of a change should do the merge, except in rare cases (for example, they are unavailable in a reasonable timeframe).
 
-If a PR has gone two working days without an approver emerging, please ask on [Discord](https://discord.com/invite/hyperledger).
+If a PR has gone five working days without a reviewer emerging, you can ask on [Discord](https://discord.com/invite/hyperledger), however please don't ping or message individual maintainers.
 
 ## Developer Certificate of Origin (DCO)
 
