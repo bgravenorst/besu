@@ -12,7 +12,7 @@ If you don't want to break the DCO check, ensure all your commits have a sign-of
 `git config user.name "FIRST_NAME LAST_NAME"`
 `git config user.email "MY_NAME@example.com"`
 
-If you use the GitHub web UI for commits, also ensure you have your email address set as public in your GitHub profile. This avoids issues with `XYZ@users.noreply.github.com` placeholder emails.
+If you use the GitHub web UI for commits, make sure the `Signed-off-by` line uses the same email address as the commit author. This can be your GitHub `users.noreply.github.com` email if you keep your email address private.
 
 You can also set up a git global alias.
 

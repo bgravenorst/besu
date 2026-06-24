@@ -8,7 +8,7 @@ This document covers everything you need to know to decide whether and how you w
 
 ## Contents
 
-- [GitHub/Discord accounts](#githubdiscord-accounts)
+- [GitHub and Discord accounts](#github-and-discord-accounts)
 - [I just have a quick question](#i-just-have-a-quick-question)
 - [Where to start?](#where-to-start)
 - [Contribution workflow](#contribution-workflow)
@@ -23,12 +23,12 @@ This document covers everything you need to know to decide whether and how you w
 - [Other important information](#other-important-information)
 - [Contributing to specific areas](#contributing-to-specific-areas)
 
-## GitHub/Discord accounts
+## GitHub and Discord accounts
 
-Having the following accounts is necessary for contributing code/issues to Besu.
+A GitHub account is required for code and issue contributions. Discord is optional, but useful for asking questions and coordinating with maintainers.
 
-- If you want to contribute code, or raise an issue, you will need a [GitHub account](https://github.com).
-- To ask questions or chat with us, join our [Discord](https://discord.com/invite/hyperledger). A Discord login is required.
+- Create a [GitHub account](https://github.com) if you don't already have one.
+- Join our [Discord](https://discord.com/invite/hyperledger) to ask questions or chat with us.
 
 ## I just have a quick question
 
@@ -60,7 +60,7 @@ To contribute changes, use the following workflow:
 6. **Test your changes** locally before pushing to ensure you are not breaking another part of the software. Running `./gradlew clean check test` locally helps you be confident that your changes will pass CI once pushed as a PR.
 7. **Push your changes** to your remote fork (usually labeled `origin`).
 8. **Create a pull request** on the Besu repository. If it's not ready for review, make it a `Draft` PR. If the PR addresses an existing issue, include the issue number in the PR title in square brackets (for example, `[#2374]`).
-9. **Add labels** to identify the type of your PR. For example, if your PR fixes a bug, add the "bug" label.
+9. **Add labels** to identify the type of your PR, if you have permission. For example, if your PR fixes a bug, add the "bug" label. If you don't have permission, maintainers will label the PR during triage.
 10. If the PR addresses an existing issue, comment on the issue with the PR number.
 11. **Ensure your changes are reviewed**. Let us know on Discord that your PR is ready for review. If you are a maintainer, you can choose reviewers; otherwise this is done by one of the maintainers.
 12. **Make any required changes** based on reviewer feedback. Make the changes, commit to your branch, and push to your remote fork.
@@ -181,7 +181,7 @@ git config user.name "FIRST_NAME LAST_NAME"
 git config user.email "MY_NAME@example.com"
 ```
 
-The sign-off must use your legal name, not a pseudonym. If you use the GitHub web UI for commits, also set your email address as public in your GitHub profile to avoid issues with `XYZ@users.noreply.github.com` placeholder emails.
+The sign-off must use your legal name, not a pseudonym. If you use the GitHub web UI for commits, make sure the `Signed-off-by` line uses the same email address as the commit author. This can be your GitHub `users.noreply.github.com` email if you keep your email address private.
 
 For a git alias to sign off automatically, and for what to do when the DCO check fails on your PR, see [Working with DCO](https://github.com/besu-eth/besu/wiki/Contributing-Working-with-DCO) in the wiki.
 
